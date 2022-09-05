@@ -1,0 +1,56 @@
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+}
+
+.player{
+    width: 18%;
+    border: 2px solid blue;
+    min-height: 120px;
+    padding: 10px;
+    float: left;
+   margin-bottom: 15px;
+  }
+
+*{
+   box-sizing: border-box;
+   text-align: center; 
+}
+
+gameArea{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+.card{
+     height: 70px;
+     background-color: #eee;
+     border: 1px solid #111;
+     margin: 5px;
+     line-height: 60px;
+     border-radius: 5px;
+}
+
+.btn{
+    display: block;
+    clear: both;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.mes{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    clear: both;
+}
+
+.info{
+    color:white;
+    background-color: blue;
+    border-radius: 5px
+
+}
